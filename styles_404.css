@@ -1,0 +1,33 @@
+body{
+   background-image: url("turtle.jpg");
+   background-position:top;
+   background-repeat: no-repeat;
+   text-align: center;
+   color:white;
+}
+
+p{
+   font-size: 18px;
+}
+
+
+
+#content{
+    /*position:absolute;
+    float:left;*/
+}
+
+#btn_back {
+    width: 260px;
+    font-size: 60px;
+    font-family: Courier New Lucida Console;
+    text-align: center;
+    font-weight: bold;
+    background: #ffff00;
+    color: #fff;
+    border-radius: 20px;
+    border: 1px solid #999;
+    padding-left:10px;
+    padding-right:10px;
+    margin-top:340px;
+}
