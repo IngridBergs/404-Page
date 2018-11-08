@@ -4,6 +4,7 @@ body{
    background-repeat: no-repeat;
    text-align: center;
    color:white;
+   font-size: 16px;
 }
 
 p{
@@ -19,7 +20,7 @@ p{
 
 #btn_back {
     width: 260px;
-    font-size: 60px;
+    font-size: 30px;
     font-family: Courier New Lucida Console;
     text-align: center;
     font-weight: bold;
@@ -30,4 +31,52 @@ p{
     padding-left:10px;
     padding-right:10px;
     margin-top:340px;
+}
+
+
+
+
+/* The animation code */
+@keyframes example_1 {
+   from {background-color: red;}
+   to {background-color: yellow;}
+}
+
+/* The element to apply the animation to */
+#anim_1 {
+   width: 100px;
+   height: 100px;
+   background-color: red;
+   animation-name: example_1;
+   animation-duration: 4s;
+   float:right;
+   text-transform: uppercase;
+   font-size: 10px;
+}
+
+
+/* The animation code */
+@keyframes example_2{
+   0%   {background-color: red;}
+   25%  {background-color: yellow;}
+   50%  {background-color: blue;}
+   100% {background-color: green;}
+}
+
+/* The element to apply the animation to */
+#anim_2 {
+   width: 100px;
+   height: 100px;
+   background-color: red;
+   animation-name: example_2;
+   animation-duration: 4s;
+   float:right;
+   text-transform: uppercase;
+   font-size: 10px;
+
+}
+
+#empty{
+  width:100px;
+  float:right;
 }
